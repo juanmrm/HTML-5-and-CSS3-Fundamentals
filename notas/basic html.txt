@@ -1,0 +1,65 @@
+1 - Page Basics (ver first-page.html)
+  
+  Tags padres e hijos (nested tags). Se pueden poner en mayusculas o minusculas.
+  
+  Autoclosing Tags (aquellos que no necesitan etiqueta de cierre)
+  
+  Los espacios, saltos de linea se ignoran y aparecen como un unico espacio
+
+2 - Text Basics (sample-content.html)
+
+  Heading tags: <h1>, <h2> ... <h6>
+  Paragrahps: <p>
+  Break Line: <br/>
+  Important text (lo muestra en negrita): <strong> o <b> (b esta deprecado)
+  Emphasized text (lo muestra en italics): <em> o <i> (i esta deprecado)
+
+3 - Text Formatting (sample-content.html)
+
+  Thematic grouping of content (semantic tag): <section>
+  Complete, self-content, independently in principle content (semantic tag): <article>
+  Side topic, extra content (semantic tag): <aside>
+  Quotation (cita) for someone: <blockquote>
+
+4 - Lists (sample-list.html)
+
+  Ordered List: 
+    <ol> En ol podemos usar type attribute para indicar si queremos letras, numeros etc...
+      <li>...</li>
+      ...
+    </ol>
+  Unordered List: 
+    <ul>
+      <li>...</li>
+      ...
+    </ul>
+  Definition List:
+    <dl>
+      <dt>term 1</dt>
+      <dd>description 1</dd>
+      ...
+    </dl>
+
+  5 - Images Prep:
+
+    No podemos usar imagenes excesivamente grandes porque ralentizamos la descarga de la pagina.
+    
+    Extensiones validas: jpeg (la mas usada en la web, buena calidad), png y gif (permite incorporar animaciones).
+
+    Una imagen grande la podemos redimensionar manteniendo el aspecto (en Photoshop o Paint...) y 
+
+  6 - Inserting image (sample-images.html)
+
+    Es una buena practica indicar el width and height porque de esta forma estamos proporcionando informacion muy util al navegador.
+    Cuando renderiza si dispone de esta informacion, reservará el espacio que necesite, aunque no haya descargado todavia la imagen.
+    Sino lo indicamos, el renderizado se para hasta que descargue la imagen y sepa el tamaño real.
+
+    <figure> // to mark up a photo in a document.
+        <img src="./images/golden-gate-sm.jpg" width="500" height="213" alt="a picture of the golden gate bridge"/>
+        <figcaption>A picture of the golden gate bridge</figcaption> //  to add a caption for the <figure> element.
+    </figure>
+
+
+
+
+
