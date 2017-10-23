@@ -59,6 +59,14 @@
         <figcaption>A picture of the golden gate bridge</figcaption> //  to add a caption for the <figure> element.
     </figure>
 
+  7 - span tag:
+    Used to group inline-elements in a document. 
+    Provides no visual change by itself.
+    Provides a way to add a hook to a part of a text or a part of a document.
+
+  8 - div tag:
+    Defines a division or a section in an HTML document.
+    Used to group block-elements to format them with CSS.
 
 
 

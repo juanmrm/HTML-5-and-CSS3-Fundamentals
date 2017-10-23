@@ -1,0 +1,55 @@
+CSS: Cascading Style Sheets (se aplican de arriba a abajo, el ultimo es el que prevalece si se sobreescriben)
+
+Los comentarios con /* ...comentario... */
+
+Ver: styles-sample.html.
+
+  Cómo definirlos:
+
+    - Inline styles: en el propio tag <h1 style="text-align:right;">
+
+    - En el head: <style>...</style>
+
+    - En hojas de estilo separadas:
+      <link rel="stylesheet" href="stylesheet.css">
+
+  Font Styles:
+    font-style: italic...
+    font-size: xx-small....xx-large, px, cm, 
+               % , em: toma como referencia el padre
+               rem (root em): toma como referencia el root element
+    
+    font-family: Arial, Helvetica, sans-serif; // Intenta utilizar la primera fuente, sino esta la segunda etc...
+
+    Fonts from google: https://fonts.google.com/
+
+  Colors:
+    color: red
+    color:#FF0000 (#RRGGBB). Tambien se puede usar #RGB o color:rgb(256,0,0)
+    color:hsl(120,60%,60%) huge saturation and brightness
+    color: rgba(256, 0, 0, 0.2) Rojo, verde y azul. El ultimo es alpha 0 -> transparente, 1 -> opaco
+
+  List Style:
+    p.e: 
+      ol {
+        list-style-type: upper-alpha;
+      }
+
+      ul {
+        /* list-style-type: square; */
+        list-style-image: url('star.gif');
+      }
+
+  Selectors:
+    tags: tagname { ... }
+    class: .classname { ... } // Se puede usar en tantas clases como queramos
+    id: #identifier { ... } // Ojo que el id debe ser unico el elemento de la pagina, no se pueden repetir.
+
+    Mas avanzados (https://www.w3schools.com/cssref/css_selectors.asp)
+      p.e: 
+        .group h2 { ... } // Un tag h2 dentro de un div con una clase group
+        h1, h2 { ... } // Aplicar el mismo estilo a tags h1 y h2
+
+
+  Etiquetas muy utililes para maquetar
+    span y div
