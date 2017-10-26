@@ -1,0 +1,21 @@
+1 - Text Basics (sample-content.html)
+
+  Heading tags: <h1>, <h2> ... <h6>
+  
+  Paragrahps: <p>
+  
+  Break Line: <br/>
+  
+  Important text (lo muestra en negrita): <strong> o <b> (b esta deprecado)
+  
+  Emphasized text (lo muestra en italics): <em> o <i> (i esta deprecado)
+
+2 - Text Formatting (semantic) (sample-content.html)
+
+  Thematic grouping of content (semantic tag): <section>
+  
+  Complete, self-content, independently in principle content (semantic tag): <article>
+  
+  Side topic, extra content (semantic tag): <aside>
+  
+  Quotation (cita) for someone: <blockquote>

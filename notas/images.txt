@@ -1,0 +1,18 @@
+  1 - Images Prep:
+
+    No podemos usar imagenes excesivamente grandes porque ralentizamos la descarga de la pagina.
+    
+    Extensiones validas: jpeg (la mas usada en la web, buena calidad), png y gif (permite incorporar animaciones).
+
+    Una imagen grande la podemos redimensionar manteniendo el aspecto (en Photoshop o Paint...) y 
+
+  2 - Inserting image (sample-images.html)
+
+    Es una buena practica indicar el width and height porque de esta forma estamos proporcionando informacion muy util al navegador.
+    Cuando renderiza si dispone de esta informacion, reservará el espacio que necesite, aunque no haya descargado todavia la imagen.
+    Sino lo indicamos, el renderizado se para hasta que descargue la imagen y sepa el tamaño real.
+
+    <figure> // to mark up a photo in a document.
+        <img src="./images/golden-gate-sm.jpg" width="500" height="213" alt="a picture of the golden gate bridge"/>
+        <figcaption>A picture of the golden gate bridge</figcaption> //  to add a caption for the <figure> element.
+    </figure>

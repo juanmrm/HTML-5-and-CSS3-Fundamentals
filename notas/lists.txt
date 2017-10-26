@@ -1,0 +1,22 @@
+ Lists (sample-list.html)
+
+  Ordered List: 
+    <ol> En ol podemos usar type attribute para indicar si queremos letras, numeros etc...
+      <li>...</li>
+      ...
+    </ol>
+
+
+  Unordered List: 
+    <ul>
+      <li>...</li>
+      ...
+    </ul>
+
+
+  Definition List:
+    <dl>
+      <dt>term 1</dt>
+      <dd>description 1</dd>
+      ...
+    </dl>
