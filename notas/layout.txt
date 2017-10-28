@@ -1,0 +1,40 @@
+Controlar la disposicion de los elementos.
+
+Ver layout-sample.html
+
+Supongamos que ponemos un div fijando:
+  width: 500px;
+  height: 200px;
+
+  Y dentro ponemos elementos. Cómo gestionamos como se muestran estos elementos si se salen del width / height especificados?
+    
+    overflow:visible; // Valor por defecto, que puede solapar textos
+    overflow:hidden; // Ocultaria el texto que se saliese
+
+  1 - Control Spacing (margin / padding) around elements.
+
+    Los navegadores suelen tener valores por defecto aplicados a estas propiedades.
+      padding vs margin
+
+      padding: añade espacio hacia dentro del contenedor.
+        padding: 20px // arriba, abajo, izquierda y derecha
+        padding: 20px 10px // arriba y abajo 20px y izquierda / derecha 10px;
+        padding: 30px 20px 10px; // arriba 30px, izquierda y derecha 20px y abajo 10px
+        padding: 40px 30px 20px 10px; // arriba 40px, derecha 30px, abajo 20px, izquierda 10px
+        padding-left, padding-right, padding-bottom, padding-top
+
+      margin: añade espacio hacia afuera del contenedor.
+        Tenemos las mismas posibilidades que con padding en cuanto a configuraciones.
+
+  2 - Arranging the page block elements:
+    float: especifica como debe "flotar" un elemento con respecto al resto. Solo aplica a elementos no posicionados absolutamente (absolute positioned)
+      left, none, right, inherit (del padre)
+    
+    clear: indica como se comportara un elemento no flotante alrededor de elementos flotantes.
+       left, none, right, inherit (del padre), both
+
+  3 - Positioning of block elements:
+    position: relative / absolute / fixed
+    left, top, right, bottom
+
+
