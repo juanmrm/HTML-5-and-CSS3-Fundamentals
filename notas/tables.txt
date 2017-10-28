@@ -1,0 +1,29 @@
+Ver tables-sample.html.
+
+  1 - Tags:
+
+    table: tag de tabla
+    
+    caption: titulo para la tabla
+    
+    tr: table row
+    
+    th: table heading. Por defecto su contenido aparece centrado.
+    
+    td: table data: Por defecto su contenido va la izquierda.
+      rowspan: expands in rows, colspan: expands in cols
+
+    Nuevos en html5 (añaden semantica):
+      thead, tbody, tfooter
+
+  2 - Add Styles:
+    
+      width, height // Para definir el tamaño de la tabla
+      border: 1px solid red; // shorthand for border-width, border-style, border-color
+      border-spacing: 0; // Eliminar espacio entre bordes
+      border-collapse: collapse; // Fusionar los borders.
+      text-align: right; // Modificamos la alineacion del contenido en horizontal.
+      vertical-align: bottom; // Modificamos la alineacion del contenido en vertical.
+
+      
+  
