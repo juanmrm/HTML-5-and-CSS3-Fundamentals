@@ -37,4 +37,6 @@ Supongamos que ponemos un div fijando:
     position: relative / absolute / fixed
     left, top, right, bottom
 
+  4 - display: block; // Hacer que un component actuae como un bloque para poder darle propiedades de bloque / contenedor.
+
 

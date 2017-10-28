@@ -1,0 +1,52 @@
+Ver forms-sample.html.
+
+1 - Etiquetas:
+
+  form
+    Atributos:
+      action: a donde se tiene que enviar la informacion del formulario
+      method: como enviar la informacion (get / post)
+    
+    Elemento basico de los formularios:
+      input: de distintos tipos:
+        <input type="text" name="first name"
+        <input type="submit" value="Send"> // Submit the form, Display button con nombre Send
+
+2 - Form Elements:
+  
+  input que puede ser de muchos tipos:
+    text
+    submit
+    checkbox // Podemos tener cualquier combinacion marcada.
+    radio // Solo podemos tener uno marcado del grupo.
+
+      p.e:
+        <label for="first-name">First Name:</label> // Etiqueta que queda vinculada al input a traves del id.
+        <input type="text" id="first-name" name="first name" autofocus required>
+
+  textarea: para campos de texto mas grandes, varias filas y columnas etc..
+
+  select // Desplegable con opciones
+    option // Cada una de las opciones
+
+3 - Html 5 Form Elements
+  fieldset // Para agrupar elementos relacionados
+    legend // Para poner una legenda al grupo de elementos
+  
+  autofocus // Atribut que podemos poner sobre un input, para que al llegar el formulario el foco se situe automaticamente en dicho input
+  required // El elemento necesita tener valor para ser valido
+
+  Nuevos input types:
+    password
+    number
+    range (min, max)
+    date
+    time
+    color
+  
+  4 - Form Styles:
+  
+
+  
+
+
