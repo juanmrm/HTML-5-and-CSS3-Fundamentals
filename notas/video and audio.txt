@@ -1,0 +1,31 @@
+Ver video-sample.html
+
+Hay distintos formatos:
+  WebM HD
+  WebM SD
+  MP4
+  OGG Theora
+
+  Los navegadores no soportan todos los formatos, y los dispositivos moviles tampoco, por lo que tenemos que tener cabeza.
+
+  1 - Video Tag
+    video con atributos:
+        src: fuente del video
+        width: ancho 
+        height: alto
+        autoplay: empieza a reproducierse automaticamente
+        controls: muestra controles
+        poster: mostrar un frame inicial que queramos, con un texto por ejemplo
+
+      ejemplo: <video src="latte-pour.mp4" width="640" height="360" controls poster="latte-poster.JPG">
+
+    Para aumentar la compatibilidad con mas formatos (el navegador, ira probando en orden a ver cual vale)
+       <video width="640" height="360" controls poster="latte-poster.JPG">
+        <source src="latte-pour.mp4" type="video/mp4">
+        <source src="latte-pour.webm" type="video/webm">
+        <source src="latte-pour.ogv" type="video/ogg">
+        Your browser does not support video playback
+      </video>
+
+  2 - Audio Tag
+    Muy similar al tag y atributos de video.
